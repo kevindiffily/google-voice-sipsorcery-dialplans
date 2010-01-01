@@ -13,7 +13,7 @@ SIP Sorcery is not only able to process and route SIP calls, but is also able to
 
 Note: You are now ready to receive inbound calls to your Google Voice number for free. You may also enter phone numbers on the Google Voice website and select your sipgate number as the phone you wish to use to make free outbound calls. There is one last step required to enable 24x7 free unlimited outbound dialing from your SIP-compatible softphone or standard telephone attached to your SIP-compatible ATA.<p>
 
-  # Pick one of the SIP Sorcery dial plans below in section 10 or 11, copy it, go to the Dial Plans page in SIP Sorcery, click on default, and paste in the dial plan you selected, overwriting the short default script already there. Customize the portions of the dialplan highlighted in blue below. The script will not function correctly and you will not be able to make free outbound calls until you customize the highlighted entries.
+As the final step, choose one of the SIP Sorcery dial plans below in section 10 or 11, copy it, go to the Dial Plans page in SIP Sorcery, click on default, and paste in the dial plan you selected, overwriting the short default script already there. Customize the portions of the dialplan highlighted in blue below. The script will not function correctly and you will not be able to make free outbound calls until you customize the highlighted entries.
 
 If you've made it here, you should be all set. If you followed all the steps properly, you should be able to start your SIP client or pick up your ATA-connected phone and dial any number in the US for free. If you are unfamiliar with other SIP clients and SIP-compatible devices available to you, check out Section 13.<p>
  
