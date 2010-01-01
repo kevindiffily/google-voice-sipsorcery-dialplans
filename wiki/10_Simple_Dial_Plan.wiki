@@ -8,3 +8,5 @@ Copy and paste this entire script over top of the stock outbound dial plan, upda
 
 Optional:<br>
 If you'd like to set up some speed dial numbers, just customize the entries highlighted in yellow. As currently written, you don't need to do anything to use 411 (which automatically dials GOOG-411) or 266 (= "CNN" on your dial pad) to hear the latest headline news from CNN. If you want additional speed dials - simply enter them in another line of code using the same format as shown. You may revise the dial plan after you've pasted it into sipsorcery - or make the revisions  prior to cutting and pasting.
+
+The dial plan is now available on the Source tab of this site, and can be reached by clicking <a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/source/browse/trunk/SIP%20Sorcery%20Dial%20Plans/DialPlans/SimpleDialPlan">here</a>.
