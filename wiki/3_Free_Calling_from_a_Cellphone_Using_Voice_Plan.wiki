@@ -40,7 +40,7 @@ Users should note that the access number dialed by the alternate dialer on Andro
 With this in mind, a common suggestion given to Blackberry users is to create an entry in the phone's local address book for Google Voice. The two numbers stored in that entry would be the user's own personal Google Voice number as well as the access number they detect as being called by the alternate dialer. The user may also go as far as adding a picture to the entry, such as this one found here:<p>
 
 
-http://www.iphonefreak.com/wp-content/uploads/2009/06/gv_mobile_logo_new_250x250.jpg
+<center>http://www.iphonefreak.com/wp-content/uploads/2009/06/gv_mobile_logo_new_250x250.jpg</center>
 
  
 Doing so makes it very easy for Blackberry users to recognize when the access number has changed since the "Call In Progress" screen will simply show a phone number instead of the name "Google Voice" and the icon displayed above will not be shown. When the icon and name are not displayed on outbound calls initiated by the alternate dialer, the user will know that the access number being dialed by the dialer app is not on their calling circle and the outbound calls will not be free of charge until the new number is added to the calling circle.<p>
