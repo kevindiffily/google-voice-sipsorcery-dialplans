@@ -30,10 +30,10 @@ This is significant because there's no way for users to know which Google Voice 
  
 When Google Voice users with calling circles add their Google Voice number (and the access numbers used by smartphones) to their calling circle and choose to have Google Voice display their own Google Voice number as the caller ID on incoming calls, they are now able to make and receive unlimited calls with their cellphones under certain conditions:<p>
  
-#) The cellphone is on their carrier's home network (i.e. not roaming),
-#) The user always uses a dialing method that routes calls through the Google Voice servers and all entrance numbers are listed in their calling circle,
-#) Parties calling the user call them through their Google Voice number,
-#) The user maintains at least the minimum calling plan that qualifies for calling circles
+  #) The cellphone is on their carrier's home network (i.e. not roaming),
+  #) The user always uses a dialing method that routes calls through the Google Voice servers and all entrance numbers are listed in their calling circle,
+  #) Parties calling the user call them through their Google Voice number,
+  #) The user maintains at least the minimum calling plan that qualifies for calling circles
  
 Users should note that the access number dialed by the alternate dialer on Android and Blackberry phones is subject to change at any time, and it is the user's responsibility to ensure that the access number being dialed matches the number on their calling circle for that purpose. The alternate dialer on Blackberry phones does not entirely mask the calling process from the user. Once the dialer transmits the target phone number to the Google Voice servers over the Internet, the dialer app initiates a standard phone call, allowing the user to see the standard screen displayed while a call is in progress.<p>
  
