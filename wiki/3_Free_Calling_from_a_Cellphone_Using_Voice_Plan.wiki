@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary How to make free phone calls while using your cellular voice plan
 
 = Free Calling from a Cellphone (Using the Voice Plan) =
 
@@ -43,7 +43,8 @@ When Google Voice users with calling circles add their Google Voice number (and 
 Users should note that the access number dialed by the alternate dialer on Android and Blackberry phones is subject to change at any time, and it is the user's responsibility to ensure that the access number being dialed matches the number on their calling circle for that purpose. The alternate dialer on Blackberry phones does not entirely mask the calling process from the user. Once the dialer transmits the target phone number to the Google Voice servers over the Internet, the dialer app initiates a standard phone call, allowing the user to see the standard screen displayed while a call is in progress.
  
 With this in mind, a common suggestion given to Blackberry users is to create an entry in the phone's local address book for Google Voice. The two numbers stored in that entry would be the user's own personal Google Voice number as well as the access number they detect as being called by the alternate dialer. The user may also go as far as adding a picture to the entry, such as this one found here: 
- 
+
+
 http://www.iphonefreak.com/wp-content/uploads/2009/06/gv_mobile_logo_new_250x250.jpg
 
  
