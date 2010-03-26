@@ -17,4 +17,4 @@ As the final step, choose one of the SIP Sorcery dial plans below in section 10 
 
 If you've made it here, you should be all set. If you followed all the steps properly, you should be able to start your SIP client or pick up your ATA-connected phone and dial any number in the US for free. If you are unfamiliar with other SIP clients and SIP-compatible devices available to you, check out Section 13.<p>
  
-NOTE: If you are unable to follow these steps and just can't seem to get outbound dialing to work, please see section 14 of this document for  more detailed instructions, including screenshots of the setup process. 
+NOTE: If you are unable to follow these steps and just can't seem to get outbound dialing to work, please see section 14 of this document for  more detailed instructions, including screenshots of the setup process.  
