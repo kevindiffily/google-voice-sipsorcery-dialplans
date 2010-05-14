@@ -1,6 +1,6 @@
 #summary Customizations that must be made to each of the dial plans
 
-The very top of the dial plans contain the "Mandatory Entries" section. First, there are up to five (or possibly six) pieces of information that you will need to provide, depending on the dial plan you choose to use. The five details common to both dial plans are:<p> 
+The very top of the dial plans contain the "Mandatory Entries" section. First, there are up to five (or possibly six) pieces of information that you will need to provide, depending on the dial plan you choose to use. The five details common to both dial plans are:<p>
  
   # Your Area Code
   # Your Google account in full email address form (typically "user@gmail.com")
