@@ -1,7 +1,7 @@
 #summary Integrating Gizmo5 with SIP Sorcery
 
 Among the many SIP phone line providers on the Internet, SIP Sorcery presents an interesting end user experience. SIP Sorcery was developed to offer a flexible way to control the flow of phone calls while in their digital form. What is unique about SIP Sorcery's approach is that they expose a complete programmable environment, allowing skilled users to develop robust and complex schemes for routing calls between networks. When GrandCentral reopened its doors as Google Voice and Google Voice restricted its SIP-based communications to Gizmo5, SIP Sorcery seized a unique opportunity.<p>
- 
+
 See, Gizmo5 still offers to forward all inbound calls to another destination free of charge, so long as the connection is via SIP. This is of no consequence to SIP Sorcery because they only deal in SIP links. SIP Sorcery unilaterally updated their system to include support for Google Voice. They developed and made available a script function that uses Google Voice to establish phone calls which are then presented via SIP to SIP Sorcery and on to their connected users. SIP Sorcery uses the phone numbers entered via a SIP client to kick off the script that establishes a call at Google Voice.<p>
  
 What does all this mean? <b>It means that users who connect to SIP Sorcery via SIP are able to dial phone numbers directly in their SIP clients or on their analog phones attached to a SIP-compatible phone adapter. SIP Sorcery then uses Google Voice to place unlimited free calls to any US phone number entered by the user.</b><p>
