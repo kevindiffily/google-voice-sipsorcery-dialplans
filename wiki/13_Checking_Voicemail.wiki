@@ -11,9 +11,11 @@ GV voice mail from ATA and includes enhanced caller id via CNAM.
 
 So, if you have 2nd GV account, you need to uncomment and edit 3 lines:
 
+{{{
 GV_NUMBER = '12125551212'          # My GV number
 VM_USER   = 'username@gmail.com'   # my 2nd GV e-mail address (user@gmail.com)
 VM_PASS   = 'GV password'          # my GV password 
+}}}
 
 First line is your "main" GV number in 11-digit format. The other two lines
 are your credentials for 2nd GV account. If you dial GV_NUMBER, the dialplan
