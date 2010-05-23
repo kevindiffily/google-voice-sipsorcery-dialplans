@@ -1,6 +1,6 @@
 #summary A dial plan with extra features being developed, such as selecting a different SIP Provider based on the country being called.
 
-Here is a dial plan adaptable to both sipgate and Gizmo5 that offers a speed dial directory that is accessible from every attached phone. Originally published by Mike Telis on mysipswitch.com, it is also capable of automatic routing across multiple SIP providers based on the phone number you are calling. You will need to edit the "Mandatory Configuration" section with your Google Voice username, password, and your assigned Gizmo5 and/or sipgate phone numbers.<p>
+Here is a dial plan adaptable to both sipgate and Gizmo5 that offers a speed dial directory that is accessible from every attached phone. Originally published by Mike Telis on mysipswitch.com, it is also capable of automatic routing across multiple SIP providers based on the phone number you are calling. You will need to edit the "Mandatory Configuration" section with your Google Voice username, password, and your assigned Gizmo5 and/or sipgate phone numbers.<p> 
 
 For the code below - entries in the Mandatory Configuration section need to be modified before saving the dialplan. There are four fields that must be customized (the same three shown in the simple dial plan in section 10 plus the time zone) and either one or two more entries that need to be customized, depending on whether or not you have a SIPGate number, a Gizmo5 number, or both. Do not make changes anywhere else in the script beyond the six highlighted spots below.<p>
 
