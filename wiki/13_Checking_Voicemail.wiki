@@ -26,19 +26,6 @@ instead of the number.
 
 The CNAM lookup table and WP_key are documented in readme for "Complex Dial Plan with CNAM lookup".
 
-This dialplan can use more than one callback number, just use an array instead
-of simple string:
-
-CB_NUMBER = [ '12125551212', '12124441212' ]
-
-Likewise, you can use array of time-outs, should you need to set different
-time-outs for different numbers:
-
-TIME_OUT  = [ 10, 15 ]
-
-Dialplan will try callback numbers sequentially, starting from the first in
-your array.
-
 = Download =
 
 You may download the dialplan from the Contrib section or by clicking here
