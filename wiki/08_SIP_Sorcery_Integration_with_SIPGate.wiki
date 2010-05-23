@@ -2,7 +2,7 @@
 
 SIP Sorcery is not only able to process and route SIP calls, but is also able to serve as a SIP client to SIP providers. This capability enables SIP Sorcery users to use any other telecom provider that offers SIP access to their users' phone lines. Sipgate.com is one such provider. In order to enable 24x7 free calling for Google Voice and sipgate users using just a SIP client, follow these simple steps to use the dialplan in the next section.
 
- 
+
 
   # Sign up for a free Residential Sipgate ONE account at sipgate.com. Go into your settings page and take note of both your regular phone number (usually in area code 415) as well as your SIP credentials.
   # Sign up for a free account at SIPSorcery.com. You will need to install Microsoft Silverlight in your browser to perform this step and complete the rest of this process.
