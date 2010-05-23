@@ -28,6 +28,4 @@ The CNAM lookup table and WP_key are documented in readme for "Complex Dial Plan
 
 = Download =
 
-You may download the dialplan from the Contrib section or by clicking here
-
-http://code.google.com/p/google-voice-sipsorcery-dialplans/source/browse/trunk/SIP+Sorcery+Dial+Plans/#SIP%20Sorcery%20Dial%20Plans/Contrib/Simple%20Dial%20Plan%20with%20CNAM%20and%20VM
+You may download the dialplan from the Contrib section or by clicking <a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/source/browse/trunk/SIP+Sorcery+Dial+Plans/#SIP%20Sorcery%20Dial%20Plans/Contrib/Simple%20Dial%20Plan%20with%20CNAM%20and%20VM">here</a>.
