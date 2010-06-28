@@ -7,4 +7,4 @@ For the code below - entries in the Mandatory Configuration section need to be m
 Optional:<br>
 If you'd like to set up some speed dial numbers, just customize the entries highlighted in yellow. As currently written, you don't need to do anything to use 411 (which automatically dials GOOG-411) or 266 (= "CNN" on your dial pad) to hear the latest headline news from CNN. There are a couple of others included in the default, too. If you want additional speed dials - simply enter them in another line of code using the same format as shown. You may revise the dial plan after you've pasted it into sipsorcery - or make the revisions  prior to cutting and pasting.<p>
 
-The complex dial plan is available on the Source tab of this site, and is also available by clicking <a href="http://code.google.com/p/google-voice-sipsorcery-dialplans/source/browse/trunk/SIP%20Sorcery%20Dial%20Plans/DialPlans/ComplexDialPlan">here</a> 
+The complex dial plan is available on the Source tab of this site, and is also available by clicking <a href="http://google-voice-sipsorcery-dialplans.googlecode.com/svn/trunk/SIP%20Sorcery%20Dial%20Plans/DialPlans/ComplexDialPlan">here</a> 
