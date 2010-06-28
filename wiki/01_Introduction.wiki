@@ -1,3 +1,3 @@
 #summary Introduction to Google Voice
- 
+
 Google Voice is a free service offered by Google and is designed to help you manage your phone calls. When used for its original intended purpose, Google Voice can add unlimited calling to and from US phone numbers to any landline. With a little more effort, that benefit can be extended to cellphones with "calling circles", or plans that allow a certain number of non-free phone numbers to be converted into free calls. With even more effort and a suitable phone, the feature can be further extended to not only maintain free calling even after a carrier decides those calls should no longer be free, but to also maintain free calling while roaming outside of the United States. Finally, with the greatest amount of effort, one or two lines with unlimited calling 24x7 can be added to any home or business.
