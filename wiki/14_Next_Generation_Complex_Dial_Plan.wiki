@@ -26,18 +26,22 @@ explained by example:
 
 1. Suppose you have just one GV account and one callback number on it. Then the following description will do:
 
+{{{
 GVaccount = [
 { :usr => 'easternpa', :pwd => 'pass', :cb => '(206) 242-1234' }
 ]
+}}}
 
 Or, you can break it into 3 lines:
 
-`GVaccount = [{
+{{{
+GVaccount = [{
   :usr => 'login',         # Your GV login name, with our without @gmail.com
   :pwd => 'pass',          # Your GV password
   :cb  => '(206) 242-1234' # Callback number in 10- or 11-digit notation.
                            # Add fancy chars to your taste, they are ignored :-)
-}]`
+}]
+}}}
 
 2. What if you have two or more callback numbers? Then every element of 
    GVaccount array should contain :usr and :pwd and therefore, it's logical 
