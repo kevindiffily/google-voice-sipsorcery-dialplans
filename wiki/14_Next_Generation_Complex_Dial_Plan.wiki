@@ -33,10 +33,10 @@ GVaccount = [
 Or, you can break it into 3 lines:
 
 GVaccount = [{
-  :usr => 'login',         # Your GV login name, with our without @gmail.com
-  :pwd => 'pass',          # Your GV password
-  :cb  => '(206) 242-1234' # Callback number in 10- or 11-digit notation. 
-                           # Add fancy chars to your taste, they are ignored :-)
+  :usr => 'login',         # Your GV login name, with our without @gmail.com<p>
+  :pwd => 'pass',          # Your GV password<p>
+  :cb  => '(206) 242-1234' # Callback number in 10- or 11-digit notation.<p>
+                           # Add fancy chars to your taste, they are ignored :-)<p>
 }]
 
 2. What if you have two or more callback numbers? Then every element of 
