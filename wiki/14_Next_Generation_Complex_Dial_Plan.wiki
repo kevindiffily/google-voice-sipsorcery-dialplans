@@ -43,23 +43,24 @@ GVaccount = [{
 }]
 }}}
 
-2. What if you have two or more callback numbers? Then every element of 
-   GVaccount array should contain :usr and :pwd and therefore, it's logical 
-   to separate common part from variable. So, we declare common part as 
-   "Credentials":
+2. What if you have two or more callback numbers? Then every element of GVaccount array should contain :usr and :pwd and therefore, it's logical to separate common part from variable. So, we declare common part as "Credentials":
 
+{{{
 Credentials = { :usr => 'login', :pwd => 'pass' } # Your GV login and password
+}}}
 
 and then use it in each element, adding variable parameters like callback number:
 
+{{{
 GVaccount = [
   Credentials + { :cb => '(206) 242-1234' }, # IPKall callback number
   Credentials + { :cb => '(747) 234-5678' }, # Gizmo callback number
 ]
+}}}
 
-3. What if we have several GV accounts? Then we declare them using #1 or #2 
-   approach above, depending on the number of callbacks to each account:
+3. What if we have several GV accounts? Then we declare them using #1 or #2 approach above, depending on the number of callbacks to each account:
 
+{{{
 PAaccount = [{
   :usr => 'PAlogin',       # Your GV login name, with our without @gmail.com
   :pwd => 'PApass',        # Your GV password
@@ -73,31 +74,35 @@ NYaccount = [
   NYuser + { :cb => '(206) 242-1234' }, # IPKall callback number
   NYuser + { :cb => '(747) 234-5678' }, # Gizmo callback number
 ]
+}}}
 
-Now, what you do with several GV accounts? Apparently you select 
-appropriate account, depending on area code of your callee. What 
-is the logical place to do it? Right, in the selectVSP method! 
+Now, what you do with several GV accounts? Apparently you select appropriate account, depending on area code of your callee. What is the logical place to do it? Right, in the selectVSP method! 
 
 You'll find a method call in there:
 
+{{{
 gvcall GVaccount
+}}}
 
 It's called for all area codes except 747 (Gizmo). So, you need to modify 
 case...when statement as follows:
 
-         when "747"                   
-           route(6,"Gizmo5 to Gizmo5 call")
-         when "212", "718", "516", "347", "917", "646" # NY, I have GV number there
-           gvcall NYaccount         
-         else
-           gvcall PAaccount
+{{{
+when "747"                   
+route(6,"Gizmo5 to Gizmo5 call")
+when "212", "718", "516", "347", "917", "646" # NY, I have GV number there
+gvcall NYaccount         
+else
+gvcall PAaccount
+}}}
 
-If you want to use your "other" GV account for checking voicemail your primary
-GV, put the following right after case @num:
+If you want to use your "other" GV account for checking voicemail your primary GV, put the following right after case @num:
 
-  case @num
-    when "12125551212"                   # My Google Voice number
-      gvcall VMaccount                   # call it using my other GV account
+{{{
+case @num
+when "12125551212"                   # My Google Voice number
+gvcall VMaccount                     # call it using my other GV account
+}}}
 
 gvcall method accepts two more arguments (optional): number or retries and
 initial index. If you want it to make 2 attempts using callback numbers
