@@ -104,19 +104,19 @@ when "12125551212"                   # My Google Voice number
 gvcall VMaccount                     # call it using my other GV account
 }}}
 
-gvcall method accepts two more arguments (optional): number or retries and
-initial index. If you want it to make 2 attempts using callback numbers
-linked to NYaccount in sequential order, put
+gvcall method accepts two more arguments (optional): number or retries and initial index. If you want it to make 2 attempts using callback numbers linked to NYaccount in sequential order, put
 
+{{{
 gvcall NYaccount, 2
+}}}
 
 If you want it do the same in random order, then use this line:
 
+{{{
 gvcall NYaccount, 2, @t.to_i
+}}}
 
-Second, you need to populate CNAM hash table with phone numbers and names
-of your callers. Note that the numbers must be in ENUM format (country code
-followed by area code and then phone number). No spaces, no fancy chars here!
+Second, you need to populate CNAM hash table with phone numbers and names of your callers. Note that the numbers must be in ENUM format (country code followed by area code and then phone number). No spaces, no fancy chars here!
 
 And finally, you can obtain White Pages API key at:
 
