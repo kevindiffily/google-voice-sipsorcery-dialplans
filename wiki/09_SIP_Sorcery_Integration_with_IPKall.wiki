@@ -4,28 +4,28 @@ In late June of 2010, sipgate, the primary SIP gateway provider we recommended f
 
 IPKall is a bare-bones SIP gateway provider in that all support comes directly from the user community. In order to enable 24x7 free calling for Google Voice and sipgate users using just a SIP client, follow these simple steps to use the dialplan further down in the document.<p>
 
-# Sign up for a free account at SIPSorcery.com. You will need to install Microsoft Silverlight in your browser to perform this step and complete the rest of this process.
+  # Sign up for a free account at SIPSorcery.com. You will need to install Microsoft Silverlight in your browser to perform this step and complete the rest of this process.
 
-# Sign up for a free account at ipkall.com.
+  # Sign up for a free account at ipkall.com.
 
-* Make sure you choose SIP as the type of account.
-* Choose any area code from the list.
-* Enter the username you selected at SIP Sorcery as your SIP phone number.
-* Enter sip1.sipsorcery.com as the proxy server.
-* Enter your email address as requested, but do not enter the password you use for your email provider.
-* Leave the ring length at the default.
-* Enter the "human check" words and click Submit.
+  * Make sure you choose SIP as the type of account.
+  * Choose any area code from the list.
+  * Enter the username you selected at SIP Sorcery as your SIP phone number.
+  * Enter sip1.sipsorcery.com as the proxy server.
+  * Enter your email address as requested, but do not enter the password you use for your email provider.
+  * Leave the ring length at the default.
+  * Enter the "human check" words and click Submit.
 
 You will receive an email asking you to confirm your signup at IPKall. Once confirmed, you will also receive the "regular" (PSTN) telephone number that has been assigned to you. Any phone calls received on that PSTN number will now be forwarded to your SIP Sorcery account.<p>
 
-# Configure your SIP client, SIP-compatible softphone or SIP-compatible ATA to login to your SIP Sorcery account. Check the "SIP Accounts" page of your SIP Sorcery account and make sure an entry appears in the "SIP Bindings" list at the bottom of the page.
+  # Configure your SIP client, SIP-compatible softphone or SIP-compatible ATA to login to your SIP Sorcery account. Check the "SIP Accounts" page of your SIP Sorcery account and make sure an entry appears in the "SIP Bindings" list at the bottom of the page.
  
-# Use a phone to call your new IPKall number and make sure the phone attached to your SIP Sorcery account rings. Answer the call and make sure you can hear sound in both directions.
+  # Use a phone to call your new IPKall number and make sure the phone attached to your SIP Sorcery account rings. Answer the call and make sure you can hear sound in both directions.
  
-# Login to Google Voice, click Settings, Phones, and add your new IPKall phone number as a new managed phone. Google Voice will display a two digit number on your screen. Click Connect and Google Voice will call your IPKall number and ask you to enter the code displayed. Once you successfully add the new line, make sure it is checked on your Google Voice phone list.
+  # Login to Google Voice, click Settings, Phones, and add your new IPKall phone number as a new managed phone. Google Voice will display a two digit number on your screen. Click Connect and Google Voice will call your IPKall number and ask you to enter the code displayed. Once you successfully add the new line, make sure it is checked on your Google Voice phone list.
  
 Note: You are now ready to receive inbound calls to your Google Voice number for free. You may also enter phone numbers on the Google Voice website and select your IPKall number as the phone you wish to use to make free outbound calls. There is one last step required to enable 24x7 free unlimited outbound dialing from your SIP-compatible softphone or standard telephone attached to your SIP-compatible ATA.
  
-# Pick one of the SIP Sorcery dial plans below, copy it, go to the Dial Plans page in SIP Sorcery, click on default, and paste in the dial plan you selected, overwriting the short default script already there. Customize the portions of the dialplan as described in the comments located within the script. The script will not function correctly and you will not be able to make free outbound calls until you make the required customizations. Click Update when you have finished making the required changes.
+  # Pick one of the SIP Sorcery dial plans below, copy it, go to the Dial Plans page in SIP Sorcery, click on default, and paste in the dial plan you selected, overwriting the short default script already there. Customize the portions of the dialplan as described in the comments located within the script. The script will not function correctly and you will not be able to make free outbound calls until you make the required customizations. Click Update when you have finished making the required changes.
  
 If you've made it here, you should be all set. If you followed all the steps properly, you should be able to start your SIP client or pick up your ATA-connected phone and dial any number in the US for free. If you are unfamiliar with other SIP clients and SIP-compatible devices available to you, check out Section 13.
