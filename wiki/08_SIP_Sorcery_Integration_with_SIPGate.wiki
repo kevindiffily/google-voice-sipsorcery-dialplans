@@ -4,6 +4,10 @@
 
 *Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time. Within a day of SIP Sorcery closing, it appears that sipgate has also shut down routing of calls for SIP clients that are directly connected to the service. It appears that all sipgate accounts must be configured to automatically forward incoming calls to another SIP account, something that SIP Sorcery did for us. We are currently seeking an alternative setup.*
 
+*The original content is retained below in case you happen to have a SIP Sorcery account and never configured it, or if the service is restored soon.*
+
+==Original content==
+
 SIP Sorcery is not only able to process and route SIP calls, but is also able to serve as a SIP client to SIP providers. This capability enables SIP Sorcery users to use any other telecom provider that offers SIP access to their users' phone lines. Sipgate.com is one such provider. In order to enable 24x7 free calling for Google Voice and sipgate users using just a SIP client, follow these simple steps to use the dialplan in the next section.
 
 
