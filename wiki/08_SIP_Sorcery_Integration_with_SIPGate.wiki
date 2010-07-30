@@ -1,5 +1,5 @@
 #summary Integrating SIPGate with SIP Sorcery
- 
+
 =SIP Sorcery closed to new signups=
 
 *Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time. Within a day of SIP Sorcery closing, it appears that sipgate has also shut down routing of calls for SIP clients that are directly connected to the service. It appears that all sipgate accounts must be configured to automatically forward incoming calls to another SIP account, something that SIP Sorcery did for us. We are currently seeking an alternative setup.*
