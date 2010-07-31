@@ -2,7 +2,7 @@
  
 =SIP Sorcery closed to new signups=
 
-*Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time. IPKall requires all inbound calls to be forwarded to another SIP server, preferably one that allows users to directly connect SIP clients. This is the role that SIP Sorcery performed for us until they were forced to stop accepting new users.*
+*Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time.*
 
 *The original content is retained below in case you happen to have a SIP Sorcery account and never configured it, or if the service is restored soon.*
 
