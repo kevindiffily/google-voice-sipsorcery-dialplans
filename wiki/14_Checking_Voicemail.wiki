@@ -1,7 +1,7 @@
 #summary How to check your voicemail using only a phone
 
 = Introduction =
- 
+
 Many users are accessing their Google Voice line using only an ATA. Unfortunately, Google Voice doesn't allow you to call your own Google Voice number. This means that you can't check voice mail unless you use another Google Voice account to call your "main" GV number. This dialplan does just that. 
 
 = Details =
