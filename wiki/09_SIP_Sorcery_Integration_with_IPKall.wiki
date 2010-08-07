@@ -19,7 +19,7 @@ IPKall is a bare-bones SIP gateway provider in that all support comes directly f
   * Make sure you choose SIP as the type of account.
   * Choose any area code from the list.
   * Enter the username you selected at SIP Sorcery as your SIP phone number.
-  * Enter sip1.sipsorcery.com as the proxy server.
+  * *NEW* Enter sipsorcery.com as the proxy server.
   * Enter your email address as requested, but do not enter the password you use for your email provider.
   * Leave the ring length at the default.
   * Enter the "human check" words and click Submit.
