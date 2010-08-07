@@ -1,5 +1,5 @@
 #summary Using the IPKall free SIP gateway service with Google Voice
-
+ 
 =SIP Sorcery closed to new signups=
  
 *Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time.*
