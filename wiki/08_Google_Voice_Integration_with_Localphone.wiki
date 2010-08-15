@@ -35,7 +35,7 @@ I need to stress again how important it is to remove the 650-265-1193 from 'My N
 
 *Update*
 
-It appears that Google are now presenting *your* GV number when verifying accounts again, this should make things a lot easier from now on and remove the need to add and remove the 650 number. 
+It appears that Google are now presenting *your* GV number when verifying accounts again, this should make things a lot easier from now on and remove the need to add and remove the 650 number. (*Note:* This change was reversed after a month, but may return at any time.)
 
 But, and this is a *big* but, they only seem allow you to add one instance of a phone across the whole of the platform, I have just tried to add a Localphone access number 914-371-5006 and the GV message popped up to say it was already in use on another GV account.  So it looks like the people who have got this setup already are the lucky ones, new users are going to have to use pot-luck to try and find access numbers that are not already in use, we currently have over 6000 access numbers in the US, so there are a few to go at before they run out.
 
