@@ -11,6 +11,8 @@ Not everyone who travels abroad can expect to have continuous solid 3G data or w
 
 Google Voice forum user "d4rr3ll" (Darrell Taylor) is a Localphone employee, and posted the following instructions in the Google Voice forum. These instructions are not to be considered formal instructions from Localphone. Darrell found and documented a process that works, and wanted to share it for informational purposes only.
 
+*From Darrell:*
+
 I've had a look at this and have figured a work around for the verification process, once done this will allow you to use the shared Localphone Direct Dial numbers with your GV account.
 
 The trick is to be able to answer the call that asks you to verify the number, now the initial problem here is that the call verification call doesn't originate from your GV number, it's a Mountain View, CA number.  So all you have to do is add the number as one of 'My Numbers' to your Localphone account, get it to call one of you Direct Dial access number (which you have configured to forward to your Landline or Cell while you do the verification) and the punch in the digits it asks.  Once the number is verified you can then edit it to call whatever international number you want.  You also need to tweak your GV setting in order to get this to work, I'll list the steps I took below to make this work on my account.
