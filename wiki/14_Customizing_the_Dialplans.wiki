@@ -1,0 +1,30 @@
+#summary Customizations that must be made to each of the dial plans
+
+The very top of the dial plans contain the "Mandatory Entries" section. First, there are up to five (or possibly six) pieces of information that you will need to provide, depending on the dial plan you choose to use. The five details common to both dial plans are:<p> 
+ 
+  # Your Area Code
+  # Your Google account in full email address form (typically "user@gmail.com")
+  # Your Google account's password
+  # The 10-digit phone number assigned to you by sipgate. It can be in almost any area code, but is typically from area code 415.
+  # The 10-digit phone number assigned to you by Gizmo5. This will be a number in area code 747.
+ 
+If you choose to use the Complex Dial Plan described in Section 11, you have one other change that is required:
+
+  # Your time zone.
+ 
+ 
+IMPORTANT: If you are disconnecting your home phone service and do not have a cellphone, be advised that Google Voice does not provide 911 service. You should take a minute to call your emergency services center ON A NON-EMERGENCY NUMBER and ask them for the best alternative number to call if you don't have 911 service.<p>
+ 
+URGENT NOTE
+: It is always best to call 911 from a live phone line provided by the phone company. Your second best option is your cellphone, preferably one with GPS functionality. Your very last option should be to use Google Voice to call the alternate number provided to you by your emergency services center. They will not have automatic addresses or GPS coordinates, so they will have the least amount of information available if you call during an emergency. They will also typically answer 911 calls first so you may not get an immediate response when it is most urgently needed. Sipgate does offer 911 service for $1.90 per month, and they will transmit your registered address to the authorities should you need to call 911. We have not updated the dial plan to handle routing 911 through sipgate at this time, but will do so if someone wants to activate the service.<p>
+ 
+After the mandatory settings section in each dial plan is the optional speed dial directory. This function has two benefits. First, it brings customizable "short codes" to standard phones. This allows numeric codes to be dialed and have those codes interpreted to trigger a connection to a specific destination. For example, a user can create "extensions". So for instance, 411 is translated to 1-800-466-4411, which is Google's 411 (information by phone) service. (Note that 4664411 spells "GOOG-411" on a standard telephone keypad.)<p>
+ 
+ 
+A popular use for the speed dial directory is to listen to podcasts collected by podcast aggregator Podlinez. They collect thousands of regularly updated podcasts and link them to phone numbers. By calling the assigned phone number, the user will immediately hear the latest episode of the associated podcast. Podlinez takes the extra step, however, of making each and every phone line also available via SIP. This means that SIP Sorcery can be configured to call any of those numbers directly over SIP instead of using Google Voice to call into Podlinez via a standard phone line. And since the speed dial directory supports translating short codes to other SIP-accessible phone lines, users are free to choose any number of podcasts from the Podlinez directory and add them to their speed dial list.<p>
+ 
+For example, the CNN Radio top stories podcast is updated hourly and available to all phones at 1-415-376-7253. Podlinez also makes that phone number available via SIP at "4153767253@podlinez.net". Instead of dialing the entire number or creating an entry in the address book for each device attached to your SIP Sorcery account, a "short code" number can be added to the custom speed dial directory at the top of the script. As soon as the script has been updated, all attached devices can dial the short code and hear the headlines. Since 266 spells "CNN" on a standard telephone keypad, the short code can be added to the speed dial directory with this simple line placed in the middle of the directory:<p>
+
+  '266' => '4153767253@podlinez.net',   # CNN Headlines (266 = "CNN")<p>
+ 
+Again, all phone numbers listed in the Podlinez directory can be added to the speed dial directory by creating an entry formatted like the one above. This is not required as users are still free to call the traditional phone lines to hear the podcasts, but those lines are occasionally busy. Accessing the lines via SIP bypasses the traditional phone lines, leaving them open for other users who are not SIP enabled, and also eliminating the chance of calling at a time when the phone lines are simply out of capacity.
