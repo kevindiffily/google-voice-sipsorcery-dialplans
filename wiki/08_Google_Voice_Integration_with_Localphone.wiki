@@ -33,6 +33,11 @@ I think thats pretty much it, you should now have a verified Localphone Direct D
 
 I need to stress again how important it is to remove the 650-265-1193 from 'My Numbers' after you have verified the number, if you don't remove it then anyone else who is trying to verify their number will end up calling through *YOUR* account and this will come out of your credit.  Also if when you try to add this number to 'My Numbers', if you get the error message to say that the number already exists it likely that someone else is in the process of verifiying their account, so please be patient and play nice people :)
 
+*Update*
+
+It appears that Google are now presenting *your* GV number when verifying accounts again, this should make things a lot easier from now on and remove the need to add and remove the 650 number. 
+
+But, and this is a *big* but, they only seem allow you to add one instance of a phone across the whole of the platform, I have just tried to add a Localphone access number 914-371-5006 and the GV message popped up to say it was already in use on another GV account.  So it looks like the people who have got this setup already are the lucky ones, new users are going to have to use pot-luck to try and find access numbers that are not already in use, we currently have over 6000 access numbers in the US, so there are a few to go at before they run out.
 
 *Disclaimer*
 I work for Localphone and this is posted for informational purposes only, you use this information AT YOUR OWN RISK, myself and Localphone do not accept any responsibility for anything that might happen as a result of using this information.
