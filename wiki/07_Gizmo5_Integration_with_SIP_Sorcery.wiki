@@ -23,6 +23,4 @@ See, Gizmo5 still offers to forward all inbound calls to another destination fre
  
 What does all this mean? <b>It means that users who connect to SIP Sorcery via SIP are able to dial phone numbers directly in their SIP clients or on their analog phones attached to a SIP-compatible phone adapter. SIP Sorcery then uses Google Voice to place unlimited free calls to any US phone number entered by the user.</b><p>
  
-It also means, by extension, <b>that users who connect their SIP clients directly to Gizmo5 or other SIP gateway providers and don't want to pay for their value added services are not utilizing the service in the most efficient and cost effective way.</b> 
-
-*Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time.*
+It also means, by extension, <b>that users who connect their SIP clients directly to Gizmo5 or other SIP gateway providers and don't want to pay for their value added services are not utilizing the service in the most efficient and cost effective way.</b>
