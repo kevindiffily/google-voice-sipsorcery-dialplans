@@ -17,6 +17,8 @@ If you have a Gizmo5 account, but are unable to sign up for a SIP Sorcery accoun
 
 ==Original content== 
 
+*Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* in this script. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details in private and the implications of your Google account details being exposed should the server be compromised.
+
 Among the many SIP phone line providers on the Internet, SIP Sorcery presents an interesting end user experience. SIP Sorcery was developed to offer a flexible way to control the flow of phone calls while in their digital form. What is unique about SIP Sorcery's approach is that they expose a complete programmable environment, allowing skilled users to develop robust and complex schemes for routing calls between networks. When GrandCentral reopened its doors as Google Voice and Google Voice restricted its SIP-based communications to Gizmo5, SIP Sorcery seized a unique opportunity.<p>
 
 See, Gizmo5 still offers to forward all inbound calls to another destination free of charge, so long as the connection is via SIP. This is of no consequence to SIP Sorcery because they only deal in SIP links. SIP Sorcery unilaterally updated their system to include support for Google Voice. They developed and made available a script function that uses Google Voice to establish phone calls which are then presented via SIP to SIP Sorcery and on to their connected users. SIP Sorcery uses the phone numbers entered via a SIP client to kick off the script that establishes a call at Google Voice.<p>
