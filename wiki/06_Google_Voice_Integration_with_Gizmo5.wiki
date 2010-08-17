@@ -1,5 +1,5 @@
 #summary How to use Gizmo5 with Google Voice
- 
+
 After a torrid build-up of interest in Gizmo5 as the only provider with SIP access to Google Voice, Gizmo5 introduced some integration with Google Voice. For a time, Gizmo5 allowed users to "test the waters" by placing short (but free) outbound calls in conjunction with Google Voice. That feature has since been removed, and the primary value of Gizmo5's role in free calling is that it remains the only service that does not require transcoding from a standard phone line to VoIP.
 
 Gizmo5 does not limit the length of calls that arrive inbound from the Google Voice servers, however. This means that all calls arriving into Gizmo5 accounts from Google Voice are unlimited in length. Recall that when Google Voice users initiate outbound calls by entering or selecting phone numbers at the web site, Google Voice always proceeds by calling the user first at a number they specify, only to connect the user to the desired phone number when they answer the call. From the very beginning, Google Voice users with Gizmo5 accounts have been able to make calls of unlimited length over SIP merely by initiating the calls at the Google Voice website.<p>
