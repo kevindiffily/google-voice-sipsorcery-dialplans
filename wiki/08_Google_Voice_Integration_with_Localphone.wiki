@@ -7,9 +7,11 @@ Localphone.com offers yet another way to extend your reach with Google Voice. Th
 Not everyone who travels abroad can expect to have continuous solid 3G data or wifi coverage, so Localphone gives travelers the option of extending their Google Voice to a traditional in-country phone number assigned to a landline or a mobile.
 
 
-= Details =
+= Integrating Localphone via the Standard Phone Network =
 
 Google Voice forum user "d4rr3ll" (Darrell Taylor) is a Localphone employee, and posted the following instructions in the Google Voice forum. These instructions are not to be considered formal instructions from Localphone. Darrell found and documented a process that works, and wanted to share it for informational purposes only.
+
+These instructions assume you have already signed up for a free Localphone account at https://www.localphone.com/register
 
 *From Darrell:*
 
@@ -41,3 +43,44 @@ But, and this is a *big* but, they only seem allow you to add one instance of a 
 
 *Disclaimer*
 I work for Localphone and this is posted for informational purposes only, you use this information AT YOUR OWN RISK, myself and Localphone do not accept any responsibility for anything that might happen as a result of using this information.
+
+= Integrating Localphone Using VoIP =
+
+You are not required to use the chargeable features of Localphone when integrating with Google Voice. Just like Gizmo5, sipgate, and SIP Sorcery, Localphone will receive calls over VoIP via SIP and forward them free of charge to connected softphones.
+
+Sign up for a free account as described above, and from your main page, click the VoIP link in the second row of menu buttons. Click the Submit button to add the VoIP feature to your account, also for free. Take note of your SIP credentials. *Note:* They are *not* the same as your web site credentials. Next, you need to forward calls to your Localphone account via SIP.
+
+== Forwarding via Gizmo5 ==
+
+*Note:* You only need to do this if you already have a Gizmo5 account and want to pay lower per-minute charges to link your Google Voice account with non-US landlines or cellphones. Please compare rates at gizmo5.com and localphone.com to determine which provider better meets your needs.
+
+To forward all incoming calls through Gizmo5 to your new SIP-enabled Localphone account, first log into Gizmo5.com. Click on the Call Forwarding tab. Select "Forwarding All Calls" on the left, then choose "SIP" on the right. Next to the SIP button, enter "SIPid@localphone.com" replacing "SIPid" with the SIP id that Localphone gave you when you added the VoIP feature to your account. Click Save and your Gizmo5 setup is complete. Skip down to client configuration.
+
+== Forwarding via IPKall ==
+
+If you do not already have a Gizmo5 account, go to IPKall.com with your browser. Create a new account and choose SIP as the Account Type. Choose any area code they offer, it does not matter. Your SIP phone number is your SIP id that you wrote down earlier. Your SIP proxy is localphone.com. Enter a valid email address and select a unique password for the IPKall site. Do *NOT* enter your email password. You should receive a confirmation email from IPKall within 72 hours. Once you validate your request, you will receive your new phone number from the area code you selected at signup. Proceed with client configuration.
+
+== Client configuration ==
+
+To receive calls via VoIP, configure your SIP client to connect to your new VoIP-enabled Localphone account using the credentials given to you by Localphone. According to http://help.localphone.com/voip/devices/softphone/xlite you may configure your SIP client as follows:
+
+Display Name: Localphone
+User name: [SIP ID]
+Password: [SIP Password]
+Authorization User name: [SIP ID]
+Domain: localphone.com
+Proxy: proxy.localphone.com
+
+== Integrating with Google Voice ==
+
+Once your SIP client successfully logs into your Localphone account via SIP, you must now add your IPKall phone number to Google Voice. Log into Google Voice, choose Settings, Voice Settings, and click Add Another Phone. Enter the phone number assigned to you by IPKall, and choose Work as the type of phone.
+
+Click Save and Google Voice will display a 2-digit number to enter for verification. Click Connect, and if your setup works, your SIP client softphone will ring. Answer the call and enter the 2-digit number Google Voice displayed for you. Google Voice should show the number as verified and ready for use.
+
+== Making and receiving calls over VoIP without SIP Sorcery ==
+
+With your IPKall number verified in Google Voice and configured to forward all incoming calls via SIP to your Localphone account, you are now able to receive unlimited calls via VoIP as well as place unlimited calls to all phones in the US and Canada. To place a call for free over VoIP, visit the Google Voice website and initiate a call using your new IPKall number as the phone you wish to use. Note that the Google Voice website automatically adjusts for mobile devices to allow for quick navigation. Once you enter or select a phone number to call on the GV website, Google Voice will call you via your SIP client softphone. Answer the call and you will be connected to the number you selected or entered on the web site. You *must not* enter phone numbers to call directly from your SIP client softphone if you wish to place calls for free. Any calls placed directly in your SIP client will incur charges by Localphone -- even to US-based numbers. Note that if Localphone charges a better rate than Google Voice to call an international destination, you may go ahead and enter the number directly into your SIP client and place the call. Similarly, if Google Voice offers a better rate to call an international destination, dial via the Google Voice website to obtain their rate.
+
+== Making and receiving calls over VoIP using SIP Sorcery ==
+
+Since Localphone's VoIP capabilities mimic those of sipgate, you may follow the instructions under "Original content" on the sipgate wiki page at this site. Just be sure to enter your Localphone credentials and configuration details when adding Localphone to your list of SIP Providers.
