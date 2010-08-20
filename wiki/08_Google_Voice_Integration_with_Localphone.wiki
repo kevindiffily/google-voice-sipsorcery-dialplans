@@ -63,14 +63,14 @@ If you do not already have a Gizmo5 account, go to IPKall.com with your browser.
 == Client configuration ==
 
 To receive calls via VoIP, configure your SIP client to connect to your new VoIP-enabled Localphone account using the credentials given to you by Localphone. According to http://help.localphone.com/voip/devices/softphone/xlite you may configure your SIP client as follows:
-
+{{{
 Display Name: Localphone
 User name: [SIP ID]
 Password: [SIP Password]
 Authorization User name: [SIP ID]
 Domain: localphone.com
 Proxy: proxy.localphone.com
-
+}}}
 == Integrating with Google Voice ==
 
 Once your SIP client successfully logs into your Localphone account via SIP, you must now add your IPKall phone number to Google Voice. Log into Google Voice, choose Settings, Voice Settings, and click Add Another Phone. Enter the phone number assigned to you by IPKall, and choose Work as the type of phone.
