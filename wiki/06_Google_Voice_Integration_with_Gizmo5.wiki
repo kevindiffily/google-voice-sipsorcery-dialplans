@@ -3,6 +3,7 @@
 =Gizmo5 Shutting Down=
 
 *According to [http://www.google.com/gizmo5/ Google], they are shutting down the Gizmo5 service as of April 3, 2011. Take the time now to migrate your inbound SIP converters to IPKall or sipgate.*
+
  
 After a torrid build-up of interest in Gizmo5 as the only provider with SIP access to Google Voice, Gizmo5 introduced some integration with Google Voice. For a time, Gizmo5 allowed users to "test the waters" by placing short (but free) outbound calls in conjunction with Google Voice. That feature has since been removed, and the primary value of Gizmo5's role in free calling is that it remains the only service that does not require transcoding from a standard phone line to VoIP.
 
