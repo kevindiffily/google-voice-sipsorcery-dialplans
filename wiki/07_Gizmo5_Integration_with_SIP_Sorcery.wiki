@@ -1,5 +1,5 @@
 #summary Integrating Gizmo5 with SIP Sorcery
- 
+
 =SIP Sorcery closed to new signups=
 
 *Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time. Gizmo5 is still usable with a SIP client and web browser, even without a SIP Sorcery account. See "Current Options" below for details.*
