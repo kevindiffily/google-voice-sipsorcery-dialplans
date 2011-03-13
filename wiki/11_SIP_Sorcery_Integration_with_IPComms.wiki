@@ -9,9 +9,9 @@ You need to set up DID routing in your IPComms account too so log in and then lo
 
 Then click on "View DID Routing" - http://farm6.static.flickr.com/5259/5523508182_55199b102b_b.jpg
 
-You may be asked to authenticate again. Login if asked.
+You may be asked to authenticate again. Login if asked. Then click "DID" on the left:
 
-Then click DID on Left - http://farm6.static.flickr.com/5012/5523508222_f48ba4b9cd_b.jpg
+http://farm6.static.flickr.com/5012/5523508222_f48ba4b9cd_b.jpg
 
 
 You will see the page where you make the changes. Follow these steps to configure the forwarding.
