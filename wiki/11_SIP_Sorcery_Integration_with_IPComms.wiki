@@ -33,3 +33,5 @@ Manage DID Routing -
 http://farm6.static.flickr.com/5132/5522916643_28f6274dae_b.jpg
 
 That's it! Calls arriving inbound to your IPComms PSTN number should now forward to your SIP Sorcery account, just as they do from IPKall.
+
+Many thanks to Red Leatherman for providing the screenshots and content.
