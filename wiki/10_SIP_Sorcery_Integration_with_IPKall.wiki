@@ -1,5 +1,13 @@
 #summary Using the IPKall free SIP gateway service with Google Voice
  
+= Background =
+
+IPKall is a free, bare-bones system that forwards all inbound phone calls to a SIP provider you specify when you signup. They do not offer a public SIP server, so you must still sign up for an account elsewhere or host your own with Asterisk or its many derivatives. Normally, this would be SIP Sorcery, but in their absence other options exist, as shown on the list found at [http://www.voip-info.org/wiki/view/VOIP+Service+Providers this] site.
+
+All inbound phone numbers come from Washington State, but this does not matter because the only phone calls that arrive on this number are those being forwarded by Google Voice. You will add this number to your Google Voice account and not give it out to anyone.
+
+All support comes from community-led forums, so consider this fact when deciding which inbound SIP gateway you wish to use with Google Voice.
+
 =SIP Sorcery closed to new signups=
  
 *Please be advised that SIP Sorcery, the glue in this process that enables you to dial outbound calls directly via your SIP client, has run into resource issues and is closed to new signups at this time.*
@@ -10,9 +18,9 @@
 
 *Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* in this script. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details in private and the implications of your Google account details being exposed should the server be compromised.
 
-In late June of 2010, sipgate, the primary SIP gateway provider we recommended for use with Google Voice, indicated that they have exhausted their supply of standard phone numbers. Based upon how we are using the SIP gateway services, we are able to replace sipgate with any provider capable of receiving calls via standard phone numbers and forwarding them to SIP clients. Another suitable alternative to sipgate is IPKall.<p>
+In late June of 2010, sipgate, the primary SIP gateway provider we recommended for use with Google Voice, indicated that they have exhausted their supply of standard phone numbers. Due to the way we use sipgate's inbound SIP gateway services, we are able to replace sipgate with any provider capable of receiving calls via standard phone numbers and forwarding them to SIP clients. One such alternative to sipgate is IPKall.<p>
 
-IPKall is a bare-bones SIP gateway provider in that all support comes directly from the user community. In order to enable 24x7 free calling for Google Voice and sipgate users using just a SIP client, follow these simple steps to use the dialplan further down in the document.<p>
+In order to enable 24x7 free calling for Google Voice and IPKall users using just a SIP client, follow these simple steps to use the dialplan further down in the document.<p>
 
 1. Sign up for a free account at SIPSorcery.com. You will need to install Microsoft Silverlight in your browser to perform this step and complete the rest of this process.
 
