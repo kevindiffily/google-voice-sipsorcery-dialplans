@@ -7,7 +7,9 @@ Use the ipcomms number where you would have used the sipgate number
 
 You need to set up DID routing in your IPComms account too so log in and then log into your account
 
-Then click on "View DID Routing" - http://farm6.static.flickr.com/5259/5523508182_55199b102b_b.jpg
+Then click on "View DID Routing":
+
+http://farm6.static.flickr.com/5259/5523508182_55199b102b_b.jpg
 
 You may be asked to authenticate again. Login if asked. Then click "DID" on the left:
 
