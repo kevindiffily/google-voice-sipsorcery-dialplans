@@ -16,11 +16,11 @@ Then click DID on Left - http://farm6.static.flickr.com/5012/5523508222_f48ba4b9
 
 You will see the page where you make the changes.
 
-# Click “Manage DID Routing” in the center of the page
-# Select your virtual phone number from the list
-# Select “VOIP Call : Yes"
-# Enter your SIP Sorcery credentials in this format: "sip/username@sipsorcery.com"
-# click “Add phone number" and it should appear below
+  # Click “Manage DID Routing” in the center of the page
+  # Select your virtual phone number from the list
+  # Select “VOIP Call : Yes"
+  # Enter your SIP Sorcery credentials in this format: "sip/username@sipsorcery.com"
+  # click “Add phone number" and it should appear below
 
 Manage DID Routing - 
 
