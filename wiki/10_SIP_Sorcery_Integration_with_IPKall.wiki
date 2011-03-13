@@ -1,5 +1,5 @@
 #summary Using the IPKall free SIP gateway service with Google Voice
- 
+
 = Background =
 
 IPKall is a free, bare-bones system that forwards all inbound phone calls to a SIP provider you specify when you signup. They do not offer a public SIP server, so you must still sign up for an account elsewhere or host your own with Asterisk or its many derivatives. Normally, this would be SIP Sorcery, but in their absence other options exist, such as Localphone.com or pbxes as shown on [http://www.voip-info.org/wiki/view/Virtual+PBX+providers this] site.
