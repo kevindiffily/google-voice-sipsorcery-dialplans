@@ -16,7 +16,7 @@ All support comes from community-led forums, so consider this fact when deciding
 
 ==Original content==
 
-*Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* in this script. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details in private and the implications of your Google account details being exposed should the server be compromised.
+*Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* in this script. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details on a system not controlled by you and the implications of your Google account details potentially being exposed should the server be compromised.
 
 In late June of 2010, sipgate, the primary SIP gateway provider we recommended for use with Google Voice, indicated that they have exhausted their supply of standard phone numbers. Due to the way we use sipgate's inbound SIP gateway services, we are able to replace sipgate with any provider capable of receiving calls via standard phone numbers and forwarding them to SIP clients. One such alternative to sipgate is IPKall.<p>
 
