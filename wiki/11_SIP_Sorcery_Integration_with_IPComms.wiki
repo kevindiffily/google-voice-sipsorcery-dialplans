@@ -14,7 +14,7 @@ You may be asked to authenticate again. Login if asked.
 Then click DID on Left - http://farm6.static.flickr.com/5012/5523508222_f48ba4b9cd_b.jpg
 
 
-You will see the page where you make the changes.
+You will see the page where you make the changes. Follow these steps to configure the forwarding.
 
   # Click “Manage DID Routing” in the center of the page
   # Select your virtual phone number from the list
