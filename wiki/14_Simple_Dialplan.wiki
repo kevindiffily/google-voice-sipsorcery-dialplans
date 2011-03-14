@@ -1,13 +1,13 @@
 #summary A short dial plan to get up and running.
 
-Below is a simple dial plan designed to get someone up and running very quickly, regardless of which SIP provider or providers with which you have an account. For the code below, only entries in the "# Settings" section need to be modified before saving the dialplan.<p> 
+This page describes a simple dial plan designed to get someone up and running very quickly, regardless of which SIP provider or providers with which you have an account. In the dialplan you choose to use, only entries in the "# Settings" section need to be modified before saving the dialplan.<p> 
 
-There are up to four (4) entries that need to be customized. You must enter your Area Code to restore 7-digit dialing of local calls. Your Google Account's email address and password must be customized, as well as one SIP number that you have activated as a gateway must also be customized. That means that if you have a SIPGate phone number and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the actual phone number assigned to you by SIPGate. Similarly, if the you have a Gizmo5 account and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the phone number Gizmo5 assigned to you from area code 747.<p>
+There are up to four (4) entries that need to be customized in the Simple Dialplan. You must enter your Area Code to restore 7-digit dialing of local calls. You must enter your Google Account's email address and password, as well as the phone number that you have been assigned as an inbound SIP gateway. That means that if you have a sipate phone number and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the actual phone number assigned to you by sipgate. Similarly, if the you have a Gizmo5 account and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the phone number Gizmo5 assigned to you from area code 747.<p>
 
-Copy and paste this entire script over top of the stock outbound dial plan, update the three required fields and the SIP phone number, click Update above the dial plan update window, and you are all set to go.<p>
+Copy and paste the entire script over top of the stock outbound dial plan, update the three required fields and the SIP phone number, click Update above the dial plan update window, and you are all set to go.<p>
 
 Optional:<br>
-If you'd like to set up some speed dial numbers, just customize the entries highlighted in yellow. As currently written, you don't need to do anything to use 411 (which automatically dials GOOG-411) or 266 (= "CNN" on your dial pad) to hear the latest headline news from CNN. If you want additional speed dials - simply enter them in another line of code using the same format as shown. You may revise the dial plan after you've pasted it into sipsorcery - or make the revisions  prior to cutting and pasting.
+If you'd like to set up some speed dial numbers, just customize the entries in the speed dial section. As currently written, you don't need to do anything to use 411 (which automatically dials GOOG-411) or 266 (= "CNN" on your dial pad) to hear the latest headline news from CNN. If you want additional speed dials - simply enter them in another line of code using the same format as shown. You may revise the speed dial chart in the dialplan any time once you've pasted it into SIP Sorcery.
 
 = Download =
 
