@@ -14,14 +14,13 @@ All support comes from community-led forums, so consider this fact when deciding
 
 ==Original content==
 
-*Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* in this script. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details on a system not controlled by you and the implications of your Google account details potentially being exposed should the server be compromised.
+*Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* on a publicly-accessible system. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details on a system not controlled by you and the implications of your Google account details potentially being exposed should the server be compromised.
 
-In late June of 2010, sipgate, the primary SIP gateway provider we recommended for use with Google Voice, indicated that they have exhausted their supply of standard phone numbers. Due to the way we use sipgate's inbound SIP gateway services, we are able to replace sipgate with any provider capable of receiving calls via standard phone numbers and forwarding them to SIP clients. One such alternative to sipgate is IPKall.<p>
+In late June of 2010, sipgate, the primary SIP gateway provider we recommended for use with Google Voice, indicated that they have exhausted their supply of standard phone numbers. Due to the way we use sipgate's inbound SIP gateway services, we are able to replace sipgate with any provider capable of receiving calls via standard phone numbers and forwarding them to SIP clients or other SIP servers. One such alternative to sipgate is IPKall.<p>
 
-In order to enable 24x7 free calling for Google Voice and IPKall users using just a SIP client, follow these simple steps to use the dialplan further down in the document.<p>
+In order to enable 24x7 free calling for Google Voice and IPKall users using just a SIP client, follow these simple steps to select and use a dialplan available on this site.<p>
 
-1. Sign up for a free account at SIPSorcery.com. You will need to install Microsoft Silverlight in your browser to perform this step and complete the rest of this process.
-
+1. Sign up for a free account at SIPSorcery.com.
 2. Sign up for a free account at ipkall.com.
 
   * Make sure you choose SIP as the type of account.
@@ -32,13 +31,13 @@ In order to enable 24x7 free calling for Google Voice and IPKall users using jus
   * Leave the ring length at the default.
   * Enter the "human check" words and click Submit.
 
-You will receive an email asking you to confirm your signup at IPKall. Once confirmed, you will also receive the "regular" (PSTN) telephone number that has been assigned to you. Any phone calls received on that PSTN number will now be forwarded to your SIP Sorcery account. *Note: This means you do not need to register your IPKall account in the SIP Providers at SIP Sorcery. All calls will automatically be forwarded to SIP Sorcery.*<p>
+You will receive an email asking you to confirm your signup at IPKall. Once confirmed, you will then receive the "regular" (PSTN) telephone number that has been assigned to you. Any phone calls received on that PSTN number will now be forwarded to your SIP Sorcery account. *Note: This means you do not need to register your IPKall account in the SIP Providers at SIP Sorcery. All calls will automatically be forwarded to SIP Sorcery.*<p>
 
 3.  Configure your SIP client, SIP-compatible softphone or SIP-compatible ATA to login to your SIP Sorcery account. Check the "SIP Accounts" page of your SIP Sorcery account and make sure an entry appears in the "SIP Bindings" list at the bottom of the page.<p>
  
 4.  Use a phone to call your new IPKall number and make sure the phone attached to your SIP Sorcery account rings. Answer the call and make sure you can hear sound in both directions.<p>
  
-5.  Login to Google Voice, click Settings, Phones, and add your new IPKall phone number as a new managed phone. Google Voice will display a two digit number on your screen. Click Connect and Google Voice will call your IPKall number and ask you to enter the code displayed. Once you successfully add the new line, make sure it is checked on your Google Voice phone list.<p>
+5.  Log into Google Voice, click Settings, Phones, and add your new IPKall phone number as a new managed phone. Google Voice will display a two digit number on your screen. Click Connect and Google Voice will call your IPKall number and ask you to enter the code displayed. Once you successfully add the new line, make sure it is checked on your Google Voice phone list.<p>
  
 Note: You are now ready to receive inbound calls to your Google Voice number for free. You may also enter phone numbers on the Google Voice website and select your IPKall number as the phone you wish to use to make free outbound calls. There is one last step required to enable 24x7 free unlimited outbound dialing from your SIP-compatible softphone or standard telephone attached to your SIP-compatible ATA.<p>
  
