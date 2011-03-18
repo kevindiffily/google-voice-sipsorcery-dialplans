@@ -1,5 +1,5 @@
 #summary A short dial plan to get up and running.
- 
+
 This page describes a simple dial plan designed to get someone up and running very quickly, regardless of which SIP provider or providers with which you have an account. In the dialplan you choose to use, only entries in the "# Settings" section need to be modified before saving the dialplan.<p> 
 
 There are up to four (4) entries that need to be customized in the Simple Dialplan. You must enter your Area Code to restore 7-digit dialing of local calls. You must enter your Google Account's email address and password, as well as the phone number that you have been assigned as an inbound SIP gateway. That means that if you have a sipate phone number and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the actual phone number assigned to you by sipgate. Similarly, if the you have a Gizmo5 account and would like to use it for SIP calls, you must replace the phone number shown in the "CB_NUMBER" field with the phone number Gizmo5 assigned to you from area code 747.<p>
