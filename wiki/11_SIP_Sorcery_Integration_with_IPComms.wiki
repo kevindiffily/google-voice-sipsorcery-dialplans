@@ -1,5 +1,5 @@
 #summary A commercial alternative to IPKall
-  
+
 = Background =
 
 IPComms.net is a company offering business-class telephony services. This includes providing inbound PSTN-to-SIP gateway services. This wiki page describes how to forward incoming calls to SIP Sorcery via SIP, similar to the way that we use IPKall.
