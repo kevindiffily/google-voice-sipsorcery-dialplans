@@ -1,5 +1,5 @@
 #summary Extending Google Voice to International Phone Lines
- 
+
 = Introduction =
 
 Localphone.com offers yet another way to extend your reach with Google Voice. They begin with free incoming calling to SIP-based VoIP phones, like sipgate or IPKall. Localphone sets itself apart however, in that they do not require you to have a VoIP phone or device when you travel internationally. Their service is fully capable of extending your GV number to standard landlines or mobiles in over 100 countries for low per-minute rates.
