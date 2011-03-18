@@ -1,5 +1,5 @@
 #summary How to make free calls from a landline phone.
-  
+
 Google Voice offers two ways to enable 24x7 free inbound and outbound calling for landline phones based in the US. First is a method that works the same way no matter what kind of phone you end up using to make a call. From the main Google Voice web page (http://voice.google.com) you are able to enter phone numbers or choose contacts from your Google Voice contact list. With the phone number entered or selected, click the Call button or link.<p>
 
 When viewed on a full PC browser, you will be asked which phone you would like Google Voice to ring. When viewed on a mobile phone browser, Google Voice will dial the phone number currently selected in the "My Mobile Number:" line on the Settings page. No matter which version of the website you use, ensure that your landline is selected as the phone you want to use for the call. Start the call and the selected phone will start ringing. As you don't get the option to choose which phone to ring when using the mobile browser, you must ensure you have the correct phone line selected prior to initiating the call.<p>
