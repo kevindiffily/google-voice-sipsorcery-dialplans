@@ -1,5 +1,5 @@
 #summary How to use Gizmo5 with Google Voice
- 
+
 =Gizmo5 Shutting Down=
 
 *According to [http://www.google.com/gizmo5/ Google], they are shutting down the Gizmo5 service as of April 3, 2011. Take the time now to migrate your inbound SIP converters to IPKall or sipgate.*
