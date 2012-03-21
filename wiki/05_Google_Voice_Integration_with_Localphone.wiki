@@ -50,12 +50,6 @@ You are not required to use the chargeable features of Localphone when integrati
 
 Sign up for a free account as described above, and from your main page, click the VoIP link in the second row of menu buttons. Click the Submit button to add the VoIP feature to your account, also for free. Take note of your SIP credentials. *Note:* They are *not* the same as your web site credentials. Next, you need to forward calls to your Localphone account via SIP.
 
-== Forwarding via Gizmo5 ==
-
-*Note:* You only need to do this if you already have a Gizmo5 account and want to pay lower per-minute charges to link your Google Voice account with non-US landlines or cellphones. Please compare rates at gizmo5.com and localphone.com to determine which provider better meets your needs.
-
-To forward all incoming calls through Gizmo5 to your new SIP-enabled Localphone account, first log into Gizmo5.com. Click on the Call Forwarding tab. Select "Forwarding All Calls" on the left, then choose "SIP" on the right. Next to the SIP button, enter "SIPid@localphone.com" replacing "SIPid" with the SIP id that Localphone gave you when you added the VoIP feature to your account. Click Save and your Gizmo5 setup is complete. Skip down to client configuration.
-
 == Forwarding via IPKall ==
 
 If you do not already have a Gizmo5 account, go to IPKall.com with your browser. Create a new account and choose SIP as the Account Type. Choose any area code they offer, it does not matter. Your SIP phone number is your SIP id that you wrote down earlier. Your SIP proxy is localphone.com. Enter a valid email address and select a unique password for the IPKall site. Do *NOT* enter your email password. You should receive a confirmation email from IPKall within 72 hours. Once you validate your request, you will receive your new phone number from the area code you selected at signup. Proceed with client configuration.
