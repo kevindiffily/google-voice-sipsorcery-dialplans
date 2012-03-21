@@ -1,5 +1,5 @@
 #summary Integrating sipgate with SIP Sorcery
-
+ 
 *Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* on a publicly-accessible system. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details on a system not controlled by you and the implications of your Google account details potentially being exposed should the server be compromised.
 
 SIP Sorcery is not only able to process and route SIP calls, but is also able to serve as a SIP client to SIP providers. This capability enables SIP Sorcery users to use any other telecom provider that offers SIP access to their users' phone lines. Sipgate.com is one such provider. In order to enable 24x7 free calling for Google Voice and sipgate users using just a SIP client, follow these simple steps to select and use a dialplan available in the Source section of this site.
