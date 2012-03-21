@@ -23,7 +23,7 @@ In order to enable 24x7 free calling for Google Voice and IPKall users using jus
   * Leave the ring length at the default.
   * Enter the "human check" words and click Submit.
 
-You will receive an email asking you to confirm your signup at IPKall. Once confirmed, you will then receive the "regular" (PSTN) telephone number that has been assigned to you. Any phone calls received on that PSTN number will now be forwarded to your SIP Sorcery account. *Note: This means you do not need to register your IPKall account in the SIP Providers at SIP Sorcery. All calls will automatically be forwarded to SIP Sorcery.*<p>
+You will receive an email asking you to confirm your signup at IPKall. Once confirmed, you will then receive the "regular" (PSTN) telephone number that has been assigned to you. Any phone calls received on that PSTN number will now be forwarded to your SIP Sorcery account.<p><p>*Note: This means you do not need to register your IPKall account in the SIP Providers at SIP Sorcery. All calls will automatically be forwarded to SIP Sorcery.*<p>
 
 3.  Configure your SIP client, SIP-compatible softphone or SIP-compatible ATA to login to your SIP Sorcery account. Check the "SIP Accounts" page of your SIP Sorcery account and make sure an entry appears in the "SIP Bindings" list at the bottom of the page.<p>
  
