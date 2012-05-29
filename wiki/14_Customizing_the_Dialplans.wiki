@@ -1,5 +1,5 @@
 #summary Customizations that must be made to each of the dial plans
- 
+
 The very top of the dial plans contain the "Mandatory Entries" section. First, there are between four and six pieces of information that you will need to provide, depending on the dialplan you choose to use. The four details common to both dial plans are:<p> 
  
   # Your Area Code
