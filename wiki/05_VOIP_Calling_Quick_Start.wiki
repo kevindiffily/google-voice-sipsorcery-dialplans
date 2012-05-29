@@ -1,7 +1,7 @@
 #summary Two quick and easy ways to get going
 
 = Introduction =
-
+ 
 Before diving into the details about setting up a fully featured VOIP-based solution, let's take a look at two "Quick Start" options that will get you calling right away.
 
 *Note:* Choose *one* of the following two scenarios:
