@@ -1,5 +1,5 @@
 #summary How to make free calls from a landline phone.
-
+ 
 =Before we get started=
 I suspect that many of our readers come to this page hoping to learn how to use traditional phones with Google Voice without paying for service. If that is what you're looking for, please go to wiki page 04_Free_Calling_with_VOIP. This page will discuss how to place and receive calls using landline phones where you already have a paid service.
 
