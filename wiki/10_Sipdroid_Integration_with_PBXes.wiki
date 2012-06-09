@@ -43,7 +43,12 @@ I am currently using an unsubscribed HTC Nexus One as a pure wifi phone, so my e
 
 That's it. Install sipdroid, tell it to create an account for you at pbxes. Log into pbxes to complete the Personal Data page and enter your Google Voice password on your "sipdroid 200" extension page. Start placing calls via sipdroid.
 
-= Note =
+=Learn more about sipdroid=
+If you would like to learn more about sipdroid or if you need to contact the developers, please visit their site, also hosted here at Google Code
+
+http://code.google.com/p/sipdroid/
+
+=Note=
 
 I have been suffering from SIP Sorcery's "rnr se key" error since last year and have been dialing via the Google Voice mobile web page ever since. The mechanism that pbxes uses is not the same as SIP Sorcery because my outbound dialing has been restored.
 
