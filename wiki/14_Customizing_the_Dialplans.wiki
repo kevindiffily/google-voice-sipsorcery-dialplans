@@ -1,5 +1,11 @@
 #summary Customizations that must be made to each of the dial plans
  
+=Before we get started=
+In the time since this website was created, our resident script writer Mike Telis has helped Aaron at SIP Sorcery develop a new, bare bones approach to adding a SIP extension to Google Voice. That approach is covered in wiki page 5, VoIP Calling Quick Start. Assuming you already have a SIP Sorcery account or are willing to sign up for a paid account, the approach outlined on wiki page 5 should be enough for just about anyone looking to create a SIP extension on Google Voice.
+
+Please continue reading this page if you are using SIP Sorcery (and not the new sipdroid/pbxes approach) and require the extended functionality available in a full diaplan script, such as "short codes" used for calling frequently dialed numbers or SIP numbers that just can't be called from a standard telephone keypad.
+
+=Modifying your dialplan=
 The very top of the dial plans contain the "Mandatory Entries" section. First, there are between four and six pieces of information that you will need to provide, depending on the dialplan you choose to use. The four details common to both dial plans are:<p> 
  
   # Your Area Code
@@ -21,8 +27,8 @@ After the mandatory settings section in each dial plan is the optional speed dia
 
 A popular use for the speed dial directory is to listen to podcasts collected by podcast aggregator Podlinez. They collect thousands of regularly updated podcasts and link them to phone numbers. By calling the assigned phone number, the user will immediately hear the latest episode of the associated podcast. Podlinez takes the extra step, however, of making each and every phone line also available via SIP. This means that SIP Sorcery can be configured to call any of those numbers directly over SIP instead of using Google Voice to call into Podlinez via a standard phone line. And since the speed dial directory supports translating short codes to other SIP-accessible phone lines, users are free to choose any number of podcasts from the Podlinez directory and add them to their speed dial list.<p>
  
-For example, the CNN Radio top stories podcast is updated hourly and available to all phones at 1-415-376-7253. Podlinez also makes that phone number available via SIP at "4153767253@podlinez.com". Instead of dialing the entire number or creating an entry in the address book for each device attached to your SIP Sorcery account, a "short code" number can be added to the custom speed dial directory at the top of the script. As soon as the script has been updated, all attached devices can dial the short code and hear the headlines. Since 266 spells "CNN" on a standard telephone keypad, the short code can be added to the speed dial directory with this simple line placed in the middle of the directory:<p>
+For example, the NPR News top stories podcast is updated hourly and available to all phones at 1-650-644-1952. Podlinez also makes that phone number available via SIP at "6506441952@podlinez.com". Instead of dialing the entire number or creating an entry in the address book for each device attached to your SIP Sorcery account, a "short code" number can be added to the custom speed dial directory at the top of the script. As soon as the script has been updated, all attached devices can dial the short code and hear the headlines. Since 677 spells "NPR" on a standard telephone keypad, the short code can be added to the speed dial directory with this simple line placed in the middle of the directory:<p>
 
-  '266' => '4153767253@podlinez.com',   # CNN Headlines (266 = "CNN")<p>
+  '677' => '6506441952@podlinez.com',  # NPR News Summary (677 = "NPR")<p>
  
-Again, all phone numbers listed in the Podlinez directory can be added to the speed dial directory by creating an entry formatted like the one above. This is not required as users are still free to call the traditional phone lines to hear the podcasts, but those lines are occasionally busy. Accessing the lines via SIP bypasses the traditional phone lines, leaving them open for other users who are not SIP enabled.
+Again, all phone numbers listed in the Podlinez directory can be added to the speed dial directory by creating an entry formatted like the one above. This is not required as users are still free to call the traditional phone lines to hear the podcasts.
