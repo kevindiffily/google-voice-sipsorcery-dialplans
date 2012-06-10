@@ -28,7 +28,7 @@ explained by example:
 
 {{{
 GVaccount = [
-{ :usr => 'easternpa', :pwd => 'pass', :cb => '(206) 242-1234' }
+{ :usr => 'login', :pwd => 'pass', :cb => '(206) 242-1234' }
 ]
 }}}
 
