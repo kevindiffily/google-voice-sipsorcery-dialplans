@@ -1,7 +1,7 @@
 #summary How to make free calls from a landline phone.
  
 =Before we get started=
-If you are hoping to learn how to get home phone service for free, please turn to wiki page 4, Free Calling with VoIP. The page you are reading now will demonstrate how to enhance your current home phone service with Google Voice.
+If you are hoping to learn how to get home phone service for free, please turn to wiki page 4, Free Calling with VoIP. The page you are reading now will demonstrate how to enhance your current home phone service with Google Voice, and not give you free service.
 
 =Free Calling from a Landline=
 
