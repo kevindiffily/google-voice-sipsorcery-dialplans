@@ -11,4 +11,10 @@ Endpoints may take the form of software on a laptop or PC that looks just like a
 Since long before Grand Central (the predecessor to Google Voice) hit the scene, services had been popping up, offering low cost phone calls with very low per-minute rates, particularly for international callers. Some companies allowed customers to access their system via regular telephone lines while others only allowed calls to traverse their network in digital form. Since Google Voice offers publicly accessible phone lines and uses high tech approaches to routing and managing phone calls on those lines, its only appropriate that Google would allow a pure IT-based approach to allowing users to connect to their Google Voice phone lines in the same way. Google allowed this for a short time back in 2009. This feature was temporarily reintroduced in 2011, but was quickly disabled once again.
 
 =Why this site?=
-The purpose of this site is to restore that functionality for you instead of waiting for Google to reinstate the feature. You will find tips, tricks and a little bit of software we have written to help make Google Voice fully functional as a SIP-compatible phone line.
+The purpose of this site is to restore that functionality for you instead of waiting for Google to reinstate the feature. You will find tips, tricks and a little bit of software we have written to help make Google Voice fully functional as a SIP-compatible phone line. If you are looking to access Google Voice via SIP, please read on for a variety of solutions and approaches available to do exactly that.
+
+Wiki page 5 will show you a couple of ways to get up and running in about 10 minutes, but if you have an Android smartphone, wiki page 10 will have you up and running with VoIP calling in about 5 minutes or less.
+
+There are plenty of ways you can get going with Google Voice via SIP, and this web site is dedicated to showing you just some of the ways you can make it happen.
+
+Enjoy, and please... read on!
