@@ -5,6 +5,8 @@ Unfortunately, sipgate's signup page now features a notice that they are no long
 
 Almost all service providers discussed on this site have temporarily halted their service at time or another, so there's a chance that sipgate may return.
 
+In the meantime, please return to the wiki [http://code.google.com/p/google-voice-sipsorcery-dialplans/w/list table of contents] and read wiki pages 6, 8, 9 and 10 to learn what other options are still available today.
+
 =Original Content=
 *Note:* In order to use SIP Sorcery as intended in this context, be advised that you must enter your Google Voice userid and password *unencrypted* on a publicly-accessible system. SIP Sorcery takes care to ensure the privacy and security of your private information, but it is up to you to consider the risks involved in storing those details on a system not controlled by you and the implications of your Google account details potentially being exposed should the server be compromised.
 
