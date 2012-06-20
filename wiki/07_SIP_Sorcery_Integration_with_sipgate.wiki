@@ -1,5 +1,5 @@
 #summary Integrating sipgate with SIP Sorcery
- 
+
 =Sipgate (Temporarily) Unavailable=
 Unfortunately, sipgate's signup page now features a notice that they are no long able to provide this service to new users. I will retain the original content below for users who already have accounts, and also just in case the service gets restored.
 
