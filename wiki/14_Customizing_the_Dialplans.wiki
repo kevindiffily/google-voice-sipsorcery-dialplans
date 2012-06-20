@@ -1,5 +1,5 @@
 #summary Customizations that must be made to each of the dial plans
- 
+
 =Before we get started=
 In the time since this website was created, our resident script writer Mike Telis has helped Aaron at SIP Sorcery develop a new, bare bones approach to adding a SIP extension to Google Voice. That approach is covered in wiki page 5, VoIP Calling Quick Start. Assuming you already have a SIP Sorcery account or are willing to sign up for a paid account, the approach outlined on wiki page 5 should be enough for just about anyone looking to create a SIP extension on Google Voice.
 
