@@ -1,5 +1,5 @@
 #summary How to make free calls from a landline phone.
- 
+
 =Before we get started=
 If you are hoping to learn how to get home phone service for free, please turn to wiki page 4, Free Calling with VoIP. You will also need to purchase an Analog Telephone Adapter (ATA) such as the Linksys PAP-2T-NA. The page you are reading now will demonstrate how to add unlimited long distance calling to your paid, traditional phone service you have today.
 
