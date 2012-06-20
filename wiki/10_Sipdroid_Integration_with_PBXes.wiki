@@ -1,5 +1,5 @@
 #summary A free SIP provider that works without SIP Sorcery.
- 
+
 =Please Note=
 
 All the steps described here were stolen shamelessly from YouTube user toddjihad's excellent [http://youtu.be/jS50Fld3y8w video] posted last August, called "Free WIFI / VOIP calls using your Android device by a free hosted SIP server." I take credit for none of this, and am only posting here after having followed the steps and successfully placed a call.
