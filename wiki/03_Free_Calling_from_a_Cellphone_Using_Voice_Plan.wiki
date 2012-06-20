@@ -1,5 +1,5 @@
 #summary How to make free phone calls while using your cellular voice plan
-
+ 
 =Before we get started=
 If you are hoping to learn how to get cellular service for free, please turn to wiki page 4, Free Calling with VoIP. Keep in mind that once you establish free calling with VoIP, you must still either have a data only plan if you wish to make and receive calls anywhere, or you must be logged into wifi if you don't have a data plan. The page you are reading now will demonstrate how to enhance your current cellular phone service with Google Voice, and not give you free service. This is *not* free calling over the Internet. This page shows you how to add free unlimited calling to certain paid voice plans.
 
