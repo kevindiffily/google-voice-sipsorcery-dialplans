@@ -1,5 +1,5 @@
 #summary Introduction to Voice Over IP (VOIP) Calling
-
+ 
 =Introduction=
 Voice Over Internet Protocol (Voice Over IP, or simply "VOIP") is a generic term that applies to methods and approaches for allowing users to transmit audio over Internet connections. There are many approaches and technologies applied to implement VOIP, and a few  standards have been developed to ease the interactivity between two or more systems looking to establish a session. One of the most popular approaches is called Session Initiation Protocol, or SIP. SIP is able to establish connections covering a variety of communications, but for the purpose of this discussion, SIP should be thought of as a way to link two or more systems together for the purpose of establishing, maintaining, and terminating phone calls. Generally speaking, a SIP server is a system that either connects to other systems or to end users, either over SIP or through a gateway function that links "digital" phone calls to telephone devices.<p>
 
